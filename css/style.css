@@ -1,0 +1,200 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  overflow: hidden;
+  background: linear-gradient(110deg, #263238, #37474F, #212121);
+  width: 100%;
+  height: auto;
+  position: sticky;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Young Serif', serif;
+  opacity: 0.7; /* Initial opacity */
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease; /* Transition for fade-in effect */
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  opacity: 1; /* Full opacity on hover */
+}
+
+body {
+  font-family: Times New Roman;
+  font-size: 16px;
+  color: black;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  font-size: 40px;
+  line-height: 170%;
+} 
+
+#main {
+  padding: 10% 20%;
+  background-color: white;
+}
+
+#footer {
+  clear: left;
+  background: linear-gradient(110deg, #263238, #37474F, #212121);
+  font-size: 20px;
+  padding: 5%;
+  color: white;	
+  font-family: 'Young Serif', serif;
+}
+
+hr {
+  border: 5px solid black;
+}
+
+#button {
+  background: black;
+  font-family:  'Young Serif', serif;
+  font-size: 20px;
+  width: 30%;
+  margin-left: 33.3%;
+  margin-right:33.3%;
+  margin-top: 5%;
+  border: 0;
+}
+
+#button a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+#button a:hover {
+  background-color: white;
+  color: black;
+  border: 3px black solid;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+  border: 0;
+}
+
+#aboutmeimg {
+  height: auto;
+  width: 45%;
+  object-fit: contain;
+  float: left;
+  border-radius: 50%;
+  margin: 5%;
+}
+
+.text {
+  float: right;
+  width: 50%;
+  margin: 0;
+}
+
+.spacing {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#wrap{
+  clear: both;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+
+@media (max-width: 800px) {
+  #main {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+  
+  #aboutmeimg {
+    width: 230px;
+  }
+  
+  .text {
+    width: 40%;
+  }
+  
+ nav ul li a {
+   padding: 15px 25px;
+   }
+
+  h1, h2, h3 {
+    font-size: 27px;
+  } 
+body {
+   font-size: 13px;
+  }
+  hr {
+    border: 3px solid black;
+  }
+  
+  #nextbutton1 {
+  width: 150px;
+  }
+  
+  #nextbutton2 {
+  width: 150px;
+  }
+}
+
+@media (min-width: 1300px) {
+   #aboutmeimg {
+    width: 350px;
+  }
+  
+ #main {
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+  } 
+  
+  iframe {
+  height: 700px;
+  }
+  
+  #button{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+}
