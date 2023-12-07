@@ -102,11 +102,11 @@ img {
   height: 300px;
   width: 250px;
   object-fit: contain;
-  margin: 30px; /* Adds space between images */
+  margin: 20px; /* Adds space between images */
 }
 
 .vertical-bar {
-    width: 10px; /* Adjust the thickness of the bar */
+    width: 5px; /* Adjust the thickness of the bar */
     height: 100%; /* Adjust the height as needed */
     background-color: black;
     float: left; /* This will place it next to your content */
