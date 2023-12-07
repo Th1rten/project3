@@ -105,6 +105,19 @@ img {
   margin: 30px; /* Adds space between images */
 }
 
+.vertical-bar {
+    width: 10px; /* Adjust the thickness of the bar */
+    height: 100%; /* Adjust the height as needed */
+    background-color: black;
+    float: left; /* This will place it next to your content */
+}
+
+.content {
+    float: left; /* Ensure the content is aligned next to the bar */
+    width: calc(50% - 5px); /* Adjust the width as needed */
+    /* Additional styling for your content */
+}
+
 iframe {
   height: 400px;
   width: 100%;
