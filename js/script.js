@@ -35,3 +35,18 @@ function initMap() {
   trafficLayer.setMap(map);
  }
 window.initMap = initMap;
+
+function setupButton() {
+  const button = document.getElementById('button');
+  if (button) {
+    button.addEventListener('click', function() {
+      window.location.href = 'https://easystreetpizzachicago.com/menu/';
+    });
+  }
+}
+
+// Initialize the map when the window loads
+window.initMap = initMap;
+
+// Setup the button functionality when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', setupButton);
