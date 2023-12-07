@@ -112,12 +112,6 @@ img {
     float: left; /* This will place it next to your content */
 }
 
-.content {
-    float: left; /* Ensure the content is aligned next to the bar */
-    width: calc(50% - 5px); /* Adjust the width as needed */
-    /* Additional styling for your content */
-}
-
 iframe {
   height: 400px;
   width: 100%;
