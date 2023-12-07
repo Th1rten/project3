@@ -92,11 +92,17 @@ hr {
   border: 3px black solid;
 }
 
-.img {
-  height: 50px;
-  width: 50px;
+.container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* This will vertically align items if they are of different heights */
+}
+
+img {
+  height: 300px;
+  width: 250px;
   object-fit: contain;
-  position: static;
+  margin: 10px; /* Adds space between images */
 }
 
 iframe {
